@@ -12,12 +12,14 @@ int main(){
     if(arr[i]==target){
         printf("element %d found at index %d.\n",target,i);
         found=1;
-        break;]\e\
+        break;
     }
 
 
-    if(!found){
+    if(found==0){
     printf("element %d is not found in the array",target);
     }
+
+    
 
 }
