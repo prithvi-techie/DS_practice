@@ -31,7 +31,7 @@ int main(){
     printf("Enter the element to be searched: ");
     scanf("%d",&target);
     // linear search program
-    for (i=0;i<n;i++) {
+    for (i=0;i<n;i++) { //maanga jo mera h jata ky tera h 
         if (arr[i]==target){
             printf("element %d is found at index %d\n",target,i);
             found =1;
